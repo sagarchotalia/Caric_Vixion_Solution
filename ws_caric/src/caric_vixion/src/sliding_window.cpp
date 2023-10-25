@@ -90,8 +90,8 @@
 
 // }
 
-// int main(int argc, char **argv)
-// {
+int main(int argc, char **argv)
+{
 //     ros::init(argc, argv, "photo_drone_planner");
 //     ros::NodeHandle nh;
 //     ros::NodeHandlePtr nh_ptr = boost::make_shared<ros::NodeHandle>(nh);
@@ -104,5 +104,5 @@
 //     ros::MultiThreadedSpinner spinner(0);
 
 //     spinner.spin();
-//     return 0;
-// }     
+    return 0;
+}     
